@@ -1,5 +1,5 @@
 echo "Fetching EC2 instances from region: $AWS_REGION ..."
-echo "-----------------------------------------------"
+echo "-----------------------###---------------------"
 
 aws ec2 describe-instances \
     --query "Reservations[*].Instances[*].{
